@@ -1,6 +1,12 @@
 # Fluidic Neuromorphic Circuits — Simulation Code
 
-Self-contained simulation scripts and helper utilities accompanying the paper on bond-graph fluidic neuromorphic circuits (spiking EI neuron and half-centre oscillator).
+Self-contained simulation scripts and helper utilities accompanying the paper submitted to the European Control Conference 2027 entitled "On Energy-Based Modelling for Fluidic Excitable Neurons".
+
+**Authors:** [Robin Wroblowski](mailto:robin.wroblowski@kuleuven.be)¹, Brent Michiels², Benjamin Gorissen², and Rodolphe Sepulchre¹,³  
+¹ KU Leuven, Department of Electrical Engineering (ESAT), STADIUS  
+² KU Leuven, Department of Mechanical Engineering  
+³ University of Cambridge, Department of Engineering
+
 
 All internal thermodynamic states are solved in absolute pressure using [FONSim](https://fonsim.readthedocs.io/), while all figures and exported CSV datasets report pressures in **gauge pressure** ($P_{\text{gauge}} = P - P_{\text{atm}}$, with $P_{\text{atm}} = 101\,300\text{ Pa}$).
 
