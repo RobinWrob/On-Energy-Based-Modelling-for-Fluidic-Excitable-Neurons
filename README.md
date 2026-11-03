@@ -1,6 +1,6 @@
 # Fluidic Neuromorphic Circuits — Simulation Code
 
-Self-contained simulation scripts and helper utilities accompanying the paper on port-Hamiltonian / bond-graph fluidic neuromorphic circuits (spiking EI neuron and half-centre oscillator).
+Self-contained simulation scripts and helper utilities accompanying the paper on bond-graph fluidic neuromorphic circuits (spiking EI neuron and half-centre oscillator).
 
 All internal thermodynamic states are solved in absolute pressure using [FONSim](https://fonsim.readthedocs.io/), while all figures and exported CSV datasets report pressures in **gauge pressure** ($P_{\text{gauge}} = P - P_{\text{atm}}$, with $P_{\text{atm}} = 101\,300\text{ Pa}$).
 
